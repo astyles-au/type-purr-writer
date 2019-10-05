@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- core css styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- google fonts - Indie Flower -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 5 CDN, production -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+
+    <!-- production version, howlerJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.core.min.js" defer></script>
+
+    <!-- development version, main.js -->
+    <script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- vue js app -->
+    <div id="app">
+
+        <header class="animated fadeInDown">
+            <h1>
+                <i class="fas fa-paw"></i>
+                {{ pageHeading }}
+            </h1>
+        </header>
+
+        <main>
+
+            <!-- {{vueTest}} -->
+
+            <type-writer>
+                <!-- the vue type writer component will populate here -->
+            </type-writer>
+
+        </main>
+
+        <footer>
+
+            <!-- credits -->
+            <ul>
+                <li>
+                    <i class="fab fa-github"></i>
+                    <a href="#">...</a>
+                </li>
+
+                <li>
+                    <i class="fab fa-twitter-square"></i>
+                    <a href="https://twitter.com/thelibstyles">thelibstyles</a>
+                </li>
+
+                <li>
+                    Powered by: <br>
+                    <i class="fab fa-vuejs"
+                    style="color: #4fc08d !important;"></i>
+                    <a href="https://vuejs.org/">Vue JS</a> + <i class="fas fa-coffee"></i>
+                </li>
+
+            </ul>
+
+        </footer>
+
+    </div> <!-- / vue js app -->
+
+</body>
+
+</html>
