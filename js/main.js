@@ -72,7 +72,7 @@ Vue.component('type-writer', {
 })
 
 // main vue instance
-new Vue({
+const app = new Vue({
     el: '#app',
     data: {
         // vueTest: 'Vue loaded ok!' // keeping this in place to test vue loaded as test
