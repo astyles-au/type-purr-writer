@@ -3,14 +3,21 @@ console.log('main js script loaded');
 
 
 // Howler js sound files
-var sound1fileName = '163286__dancip__meow-sample'
-var sound2fileName = '163286__dancip__meow-sample'
+// Howler js sounds array
+let catTypingSounds = [
+    'sounds/cat-type-sound-1.mp3',
+    'sounds/cat-type-sound-2.mp3',
+    'sounds/cat-type-sound-3.mp3',
+]
 
-// Howler js sound files config
-var soundDirectory = 'sounds' + '/'
-var extension = '.wav'
-var sound1 = soundDirectory + sound1fileName + extension
-var sound2 = soundDirectory + sound2fileName + extension
+// random sound function
+randomise = () => {
+    let randomTypingSound = catTypingSounds[Math.floor(Math.random()*catTypingSounds.length)];
+    return randomTypingSound
+}
+
+
+
 
 // vue component - type-writer form
 Vue.component('type-writer', {
@@ -25,8 +32,8 @@ Vue.component('type-writer', {
         formText: function () {
             console.log('Some keys were pressed!')
             // howler js sound play
-            var sound = new Howl({
-                src: [sound1],
+            let sound = new Howl({
+                src: [randomise()],
                 autoplay: true,
                 loop: false,
                 volume: 0.5,
@@ -43,7 +50,7 @@ Vue.component('type-writer', {
         nextLine: function () {
             console.log('You pressed enter!')
             // howler js sound play
-            var sound = new Howl({
+            let sound = new Howl({
                 src: [sound2],
                 autoplay: true,
                 loop: false,
