@@ -13,19 +13,16 @@
     <!-- google fonts - Indie Flower -->
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome 5 CDN, production -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-
     <!-- Animate CSS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
-    <!-- development version, includes helpful console warnings -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <!-- vue js v2 -->
+    <script src="js/vue.min.js" defer></script>
 
-    <!-- production version, howlerJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.core.min.js" defer></script>
+    <!-- howlerJS 2.2.1 -->
+    <script src="js/howler.min.js" defer></script>
 
-    <!-- development version, main.js -->
+    <!-- vue app instance -->
     <script src="js/main.js" defer></script>
 
 </head>
@@ -38,13 +35,11 @@
         <header class="animated fadeIn">
             <h1>
                 <i class="fas fa-paw"></i>
-                {{ pageHeading }}
+                😺 {{ pageHeading }}
             </h1>
         </header>
 
         <main>
-
-            <!-- {{vueTest}} -->
 
             <type-writer>
                 <!-- the vue type writer component will populate here -->
@@ -56,21 +51,18 @@
 
             <!-- credits -->
             <ul>
-                <li>
-                    <i class="fab fa-github"></i>
+                <li> <img class="git-hub-logo" src="img/GitHub-Mark-32px.png" />
+                    Github:
                     <a href="https://github.com/thelibstyles/type-purr-writer">type-purr-writer</a>
                 </li>
 
                 <li>
-                    <i class="fab fa-twitter-square"></i>
-                    <a href="https://twitter.com/thelibstyles">thelibstyles</a>
+                    Twitter: <a href="https://twitter.com/thelibstyles">thelibstyles</a>
                 </li>
 
                 <li>
-                    Powered by: <br>
-                    <i class="fab fa-vuejs"
-                    style="color: #4fc08d !important;"></i>
-                    <a href="https://vuejs.org/">Vue JS</a> + <i class="fas fa-coffee"></i>
+                    Powered by:
+                    <a href="https://vuejs.org/">Vue JS</a> + ☕
                 </li>
 
             </ul>

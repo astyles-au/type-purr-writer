@@ -5,7 +5,9 @@
 */
 
 /* ----- */
+
 /* core */
+
 html {
     font-size: 100%;
 }
@@ -21,25 +23,31 @@ header, main, footer {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 
 header *, main *, footer * {
     margin: auto;
 }
+
 /*  */
 
 /* ------- */
+
 /* header */
+
 header {
     font-size: 2rem;
     padding: 2%;
 }
+
 /*  */
 
 /* ------- */
+
 /* footer */
+
 footer {
     font-size: inherit;
     margin-top: 2%;
@@ -50,19 +58,21 @@ footer ul {
     width: 80%;
 }
 
-
 footer ul li {
     padding: 1%;
     list-style: none;
 }
+
 /*  */
 
 /* ------------------- */
+
 /* form and text area */
+
 form {
     width: 90%;
     height: auto;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 textarea {
@@ -71,4 +81,13 @@ textarea {
     width: 100%;
     height: 400px;
     padding: 1%;
+}
+
+/* ----------------- */
+
+/* git hub logo */
+
+.git-hub-logo {
+    max-width: 100%;
+    vertical-align: middle;
 }
