@@ -17,8 +17,6 @@ randomise = () => {
 }
 
 
-
-
 // vue component - type-writer form
 Vue.component('type-writer', {
     data: function () {
