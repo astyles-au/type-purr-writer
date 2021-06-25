@@ -1,7 +1,6 @@
 // main script
 console.log('main js script loaded');
 
-
 // Howler js sound files
 // Howler js sounds array
 let catTypingSounds = [
@@ -12,10 +11,9 @@ let catTypingSounds = [
 
 // random sound function
 randomise = () => {
-    let randomTypingSound = catTypingSounds[Math.floor(Math.random()*catTypingSounds.length)];
+    let randomTypingSound = catTypingSounds[Math.floor(Math.random() * catTypingSounds.length)];
     return randomTypingSound
 }
-
 
 // vue component - type-writer form
 Vue.component('type-writer', {
