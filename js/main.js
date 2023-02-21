@@ -1,9 +1,11 @@
 console.log("main js script loaded");
+
 let catTypingSounds = [
   "sounds/cat-type-sound-1.mp3",
   "sounds/cat-type-sound-2.mp3",
   "sounds/cat-type-sound-3.mp3",
 ];
+
 (randomise = () => {
   let randomTypingSound;
   return catTypingSounds[Math.floor(Math.random() * catTypingSounds.length)];
@@ -17,20 +19,6 @@ let catTypingSounds = [
         console.log("Some keys were pressed!");
         let sound = new Howl({
           src: [randomise()],
-          autoplay: !0,
-          loop: !1,
-          volume: 0.5,
-          onend: function () {
-            console.log("Finished!");
-          },
-        });
-      },
-    },
-    methods: {
-      nextLine: function () {
-        console.log("You pressed enter!");
-        let sound = new Howl({
-          src: [sound2],
           autoplay: !0,
           loop: !1,
           volume: 0.5,
