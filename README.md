@@ -10,6 +10,3 @@ Take a moment to paws and appreciate typing on this tye-purr-writer. You may fin
 * Howler JS https://github.com/goldfire/howler.js
 * Google fonts - Plex https://fonts.google.com/featured/Plex
 * Animate CSS https://daneden.github.io/animate.css/
-
-## Contact me:
-Find me on twitter https://twitter.com/thelibstyles
