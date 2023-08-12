@@ -3,7 +3,7 @@
 Take a moment to paws and appreciate typing on this tye-purr-writer. You may find it a-meow-sing.
 
 ## Preview link
-...
+https://typepurr.netlify.app/
 
 ## Dependencies:
 * vue JS https://vuejs.org/v2/guide/
